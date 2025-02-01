@@ -20,8 +20,8 @@ public class Main
 {
     public static void main(String[] args) 
     {
-    	MyClass obj = new MyClass();
-        obj.changeValue(10);
-        System.out.println(obj.num);
+    	MyClass obj = new MyClass(); // Creating object for the MyClass class
+        obj.changeValue(10); // calling method of MyClass method using Object reference
+        System.out.println(obj.num); // Printing the value
     }
 }
