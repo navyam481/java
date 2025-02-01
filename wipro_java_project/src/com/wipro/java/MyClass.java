@@ -6,7 +6,7 @@ package com.wipro.java;
 /**
  * 
  */
-class MyClass 
+public class MyClass 
 {
     int num = 5;
  
@@ -14,10 +14,7 @@ class MyClass
     {
         this.num = num;
     }
-}
- 
-public class Main
-{
+
     public static void main(String[] args) 
     {
     	MyClass obj = new MyClass(); // Creating object for the MyClass class
