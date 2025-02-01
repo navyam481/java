@@ -33,7 +33,7 @@ public class FlowerClass
 		
 		FlowerClass flower1 = new FlowerClass("Jasmine","White",4);
 		FlowerClass flower2 = new FlowerClass("Rose","Red",5);
-		FlowerClass flower3 = new FlowerClass("Sunflower","Yellow",10);
+		FlowerClass flower3 = new FlowerClass("Sunflower","Yellow",9);
 		
 		flower1.displayFlowers();
 		flower2.displayFlowers();
