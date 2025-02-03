@@ -1,7 +1,6 @@
-/**
- * 
- */
-package com.wipro.java;
+package com.wipro.java_opps;
+
+
 
 /**
  * POJO for Animal class
@@ -65,7 +64,7 @@ public class Animal {
 	
 	
 	/**
-	 * For printing the class details
+	 * For printing the Animal Class Properties and behaviors
 	 */
 
 	@Override

@@ -64,6 +64,15 @@ public class Employee
 	{
 		this.empDesignation = empDesignation;
 	}
+
+	/**
+	 * For printing the Employee Class Properties and behaviors
+	 */
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empName=" + empName + ", empAge=" + empAge + ", empDesignation="
+				+ empDesignation + "]";
+	}
 	
 	
 }
