@@ -2,7 +2,7 @@ package com.wipro.java.collection;
 
 import java.util.*;
 import java.util.Map.Entry;
-public class MapDemo 
+public class MapImplementation 
 {
 	public static void main(String[] args) 
 	{
