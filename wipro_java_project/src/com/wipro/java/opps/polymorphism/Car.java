@@ -4,7 +4,7 @@
 package com.wipro.java.opps.polymorphism;
 
 /**
- * POJO for Animal class
+ * POJO for Car class
  * 
  * 	1. No constructor
  *  2. Getter have return value
