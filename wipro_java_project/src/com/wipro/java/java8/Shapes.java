@@ -1,6 +1,5 @@
 package com.wipro.java.java8;
 
-
 @FunctionalInterface
 interface ShapeInterface
 {
@@ -85,4 +84,3 @@ public class Shapes  implements ShapeInterface
 		
 	}
 }
-
