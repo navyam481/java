@@ -39,7 +39,7 @@ public class NameSorting implements Comparator<Animal> {
 		/*
 		 * Fetching after sorting
 		 */
-		System.out.println("ArrayList Objects after sorting based on the Age");
+		System.out.println("ArrayList Objects after sorting based on the Name");
 		System.out.println("______________________________________________________");
 		
 		for(Animal a : animals)

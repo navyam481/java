@@ -48,12 +48,26 @@ class Animal implements Comparable<Animal>
 		return animalWeight;
 	}
 	
-	
-	
 }
-public class AnimalSorting 
+
+public class AnimalSorting implements Comparator<Animal>
 {
 
+	/*
+	 * Abstract method of Comparator(I) 
+	 */
+	
+	@Override
+	public int compare(Animal a1, Animal a2) {
+		
+		/**
+		 * Sorting the Animal based on animal name
+		 */
+		return a1.getAnimalName().compareTo(a2.getAnimalName());
+	}
+
+	
+	
 	public static void main(String[] args) 
 	{
 		/**
@@ -84,7 +98,31 @@ public class AnimalSorting
 		{
 			System.out.println("Animal Name : "+a.getAnimalName()+" , Age : "+a.getAnimalAge()+" , Weight : "+a.getAnimalWeight());
 		}
+
+		
+		
+		System.out.println("............................................................................");
+		
+		
+		
+		/**
+		 * Calling sort method from Collections class to sort animals
+		 * it will call the overridden  sort method in AnimalSorting class
+		 */
+		Collections.sort(animals , new AnimalSorting());
+		
+		/*
+		 * Fetching after sorting
+		 */
+		System.out.println("ArrayList Objects after sorting based on the Name");
+		System.out.println("______________________________________________________");
+		
+		for(Animal a : animals)
+		{
+			System.out.println("Animal Name : "+a.getAnimalName()+" , Age : "+a.getAnimalAge()+" , Weight : "+a.getAnimalWeight());
+		}
 		
 	}
 
+	
 }
