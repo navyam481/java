@@ -1,7 +1,8 @@
 package com.wipro.java.java8;
 
+
 @FunctionalInterface
-interface Shapes
+interface ShapeInterface
 {
 	// Single abstract method
 	
@@ -44,7 +45,7 @@ interface Shapes
 
 
 
-public class FunctionalInterfaceDemo  implements Shapes
+public class Shapes  implements ShapeInterface
 {
 
 	@Override
@@ -56,7 +57,7 @@ public class FunctionalInterfaceDemo  implements Shapes
 	
 	public static void main(String[] args) 
 	{
-		FunctionalInterfaceDemo obj1 = new FunctionalInterfaceDemo();
+		Shapes obj1 = new Shapes();
 		
 		/**
 		 * Calling abstract method which overridden
@@ -76,11 +77,12 @@ public class FunctionalInterfaceDemo  implements Shapes
 		System.out.println(".............................................");
 		
 		/**
-		 * Calling static method of Interface -> Shape
-		 * using Interface Name : Shape
+		 * Calling static method of Interface -> ShapeInterce
+		 * using Interface Name : ShapeInterface
 		 */
-		Shapes.circle(4);
-		System.out.println(Shapes.sphere(5));
+		ShapeInterface.circle(4);
+		System.out.println(ShapeInterface.sphere(5));
 		
 	}
 }
+
