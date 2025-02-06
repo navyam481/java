@@ -54,10 +54,9 @@ class Movie implements Comparable<Movie>
 	public int getYear() {
 		return year;
 	}
-	
-	
-	
+
 }
+
 public class ComparableSort
 {
 	public static void main(String[] args)
