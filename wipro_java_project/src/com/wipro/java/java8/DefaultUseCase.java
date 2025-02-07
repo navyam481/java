@@ -47,10 +47,10 @@ public class DefaultUseCase implements TestInterface1,TestInterface2
 		
 		
 	}
+	
 	public static void main(String[] args) 
 	{
 		DefaultUseCase obj1 = new DefaultUseCase();
 		obj1.display();
-
 	}
 }
