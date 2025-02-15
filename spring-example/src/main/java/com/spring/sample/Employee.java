@@ -1,5 +1,6 @@
 package com.spring.sample;
 
+
 public class Employee 
 {
 	private int id;

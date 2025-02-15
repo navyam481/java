@@ -7,7 +7,10 @@ public class Test
 {
 	public static void main(String[] args)
 	{
-		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
-		
+		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");		
+		Employee emp = context.getBean(Employee.class);
+		Employee1 emp1 = context.getBean(Employee1.class);
+		emp.display();
+		emp1.show();
 	}
 }
